@@ -49,14 +49,27 @@ nav > :first-child {
 .main-visual{ 
   width: 100%; /* 横幅いっぱい */
   height: 650px; /* 高さ650px */
-  background-color: orange; /* 背景色orange */
+  background-image: url(img/mv.png); /* 背景画像を設定、imgフォルダ内のmv.pngを使用 */
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */ 
 }
 
 .main-visual-text{
   width: 650px; /* 横幅650px */
   height: 650px;/* 親の高さに揃える */
-  background-color: yellow; /* 背景色yellow */
   margin: 0 auto; /* 真ん中に寄せる */
+  text-align: center; /* 横方向に中央寄せで文字を配置する。*/
+  color:white;  /* 文字色を白に変更 */ 
+}
+
+.main-visual-title{
+  padding-top: 220px; /* 上方向に220pxの余白を設定。背景色はないので空白が発生 */
+  font-size: 60px; /* 文字のサイズを60pxに設定 */
+}
+
+.main-visual-subtitle{
+  font-size: 18px; /* 文字のサイズを18pxに設定 */
+  line-height: 38px; /* 行の高さを38pxに設定、文字の大きさが18pxなので上下に10pxの余白が発生*/
 }
 
 .main{
