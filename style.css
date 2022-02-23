@@ -102,7 +102,7 @@ main{
 .main-contents-box{
   width: 300px; /* 横幅300px */
   height: 300px; /* 高さ300px */
-  margin:5px; /* 四方に隙間を5px設定 */
+  margin: 5px; /* 四方に隙間を5px設定 */
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
 }
@@ -129,6 +129,49 @@ main{
 
 .pc-pink{
   background-image: url(img/webcamp-mother.png);
+}
+
+.profile{
+  padding: 90px 0 90px 0; /* 余白を上下に90pxずつ、左右には余白無し */
+}
+
+.profile-title{
+  text-align: center;
+}
+
+.profile-contents{
+  width: 800px; /* 横幅800px */
+  margin: 0 auto; /* 中央寄せ */
+  display: flex; /* Flexboxを設定 */
+  flex-wrap: wrap; /*子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+}
+
+.profile-text{
+  padding: 30px 0; /* 上下に30pxの余白を設定、左右の余白はなしに設定 */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-box1{
+  width: 300px;
+  float: left;
+  margin-bottom: 90px;
+}
+
+.profile-box2{
+  width: 400px;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 90px;
+}
+
+.profile-sub-title{
+  height: 30px;
+  font-size: 20px;
+}
+
+.profile-sub-text{
+  font-size: 15.5px;
 }
 
 footer {
