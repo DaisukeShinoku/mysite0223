@@ -153,15 +153,19 @@ main{
 }
 
 .profile-box1{
-  width: 300px;
+  width: 400px;
   float: left;
   margin-bottom: 90px;
+}
+
+.profile-photo{
+  width: 300px;
+  height: 300px;
 }
 
 .profile-box2{
   width: 400px;
   text-align: left;
-  margin-left: 100px;
   margin-bottom: 90px;
 }
 
